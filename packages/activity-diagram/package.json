@@ -1,0 +1,32 @@
+{
+  "name": "@topology-flow/activity-diagram",
+  "version": "0.0.1",
+  "description": "a work-flow tool",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "copy": "copyfiles package.json ../../dist/activity-diagram/",
+    "build": "tsc && npm run copy"
+  },
+  "keywords": [
+    "topology",
+    "activity",
+    "diagram",
+    "canvas"
+  ],
+  "author": "jrucker@163.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JieRucker/topology-flow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JieRucker/topology-flow/issues"
+  },
+  "dependencies": {
+    "@topology-flow/core": "^0.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
